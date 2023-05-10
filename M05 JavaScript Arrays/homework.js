@@ -245,6 +245,7 @@ function continueStatement(num) {
    let aumen = num;
    for(let i = 0; i<10; i++){
       if(i === 5){
+         
          continue;
       }
       aumen=aumen+2;
